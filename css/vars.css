@@ -1,0 +1,14 @@
+:root {
+    /* color */
+    --primary:#6913cc;
+    --secondary: #d8bfd8;
+    --gray1:#a3a3a3;
+
+    /* margin */
+    --sectionM:56px;
+
+    /* text */
+    --text1:25px;
+    --text2color: #715373;
+    
+}
