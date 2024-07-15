@@ -21,9 +21,21 @@
     .btn_box a:nth-child(4) {background: linear-gradient(90deg, #A63996, #EA1E29, #FED523);}
     .btn_box a:nth-child(5) {background: #03C75A;}
 
-    .map_box {padding: 0 35px;padding-bottom: 100px;}
-    .map_box h2 {font-size: 18px;text-align: center;margin-bottom: 30px;color: #fff;}
+    .map_box_km {padding: 0 35px; padding-bottom: 100px;}
+    .map_box_km h2 {font-size: 16px;text-align: center;margin-bottom: 20px;color: #fff;}
 
+    .map_box_km .map_km .root_daum_roughmap .cont * {color: #fff;font-size: 15px;}
+    .map_box_km .map_km img[src = '//t1.daumcdn.net/localimg/localimages/07/2018/pc/map/marker_map01.png'] {animation: tongtong 0.4s infinite alternate;}
+    @keyframes tongtong {
+        0% {top:0;}
+        100% {top:-20px;}
+
+    }
+    .map_box_km .map_km .roughmap_maker_label { animation: tongtong2 0.4s infinite alternate; animation-delay: 0.1s;}
+    @keyframes tongtong2 {
+        0% {top: -57px;}
+        100% {top: -77px;}
+    }
 
 
     @media screen and (min-width: 800px){
